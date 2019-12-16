@@ -2,7 +2,7 @@
 
 This CV/resume was based on [Beatriz Milz](https://github.com/beatrizmilz/resume). It was made with R, RStudio, and the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
-HTML - Complete version: [EN](https://rmhirota.github.io/resume/) | [PT](https://rmhirota.github.io/resume/resume_pt/)
+HTML - Complete version: [EN](https://rmhirota.github.io/resume/) | [PT](https://rmhirota.github.io/resume/resume_pt.html/)
 
 PDF - Complete version: [EN](https://rmhirota.github.io/resume/index.pdf) | [PT](https://rmhirota.github.io/resume/index_pt.pdf)
 
