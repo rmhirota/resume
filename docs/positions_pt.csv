@@ -1,0 +1,36 @@
+section,in_resume,title,loc,institution,start,end,description_1,description_2,description_3,description_4
+education,TRUE,Estatística,"São Paulo, SP, Brazil",Instituto de Matemática e Estatística - Universidade de São Paulo (IME/USP),2017,Atual,Bacharelado em Estatística,,,
+education,TRUE,Comunicação Social - Jornalismo,"São Paulo, SP, Brazil",Escola de Comunicação e Artes - Universidade de São Paulo (ECA/USP),2010,2015,**Trabalho de Conclusão de Curso:** [Diário de Bordo: O Submarino Imperial Alemão U-35 em Sagres (documentary)](https://www.youtube.com/watch?v=U176lzgOc40),**Orientador:** [Luiz Fernando Santoro](http://lattes.cnpq.br/5338933760422537),,
+education,FALSE,Intercâmbio acadêmico,"Lisboa, Portgal",Instituto Politécnico de Lisboa,2014,2015,"
+",,,
+education,FALSE,Intercâmbio Acadêmico,"Madri, Espanha",Universidad Carlos III de Madrid,2012,2013,,,,
+community_projects,TRUE,[Coorganização R-Ladies São Paulo](https://www.meetup.com/pt-BR/rladies-sao-paulo/),"São Paulo, SP, Brazil",N/A,2018,Atual,[R-Ladies](https://rladies.org/),,,
+working_experience,TRUE,Analista de Dados,"São Paulo, SP, Brazil",Vortex Media,2019,2019,"Cobertura política guiada por dados; coleta, limpeza e análise de dados públicos
+",,,
+working_experience,TRUE,Analista de Dados,"São Paulo, SP, Brazil",[Volt Data Lab](https://www.voltdata.info/),2017,"Atual
+","Coleta, limpeza e análise de dados; redação de reportagens e relatórios; elaboração de visualizações de dados",,,
+working_experience,TRUE,Estágio em Estatística,"São Paulo, SP, Brazil",Marketdata,2019,2019,"Limpeza de dados, análise exploratória, modelagem estatística e elaboração de dashboards",,,
+working_experience,TRUE,Repórter,"São Paulo, SP, Brazil",Opera Mundi,2016,2017,"Cobertura de notícias internacionais, com foco em América Latina, Estados Unidos e Europa",,,
+working_experience,TRUE,Estágio em Jornalismo,"Lisboa, Portugal
+",Agencia Efe,2014,2015,Cobertura de notícias locais com interesse internacional em espanhol,,,
+teaching_experience,TRUE,Monitoria,"São Paulo, SP, Brazil",Instituto de Matemática e Estatística - Universidade de São Paulo (IME/USP),2017,2018,Curso: Introdução à Programação,,,
+events_organized,TRUE,[I SatRday São Paulo](https://saopaulo2019.satrdays.org/),"São Paulo, SP, Brazil",N/A,2019,2019,Comitê organizador e científico,,,
+events_organized,FALSE,15th Meetup R-Ladies,"São Paulo, SP, Brazil",N/A,2019,2019,"Organização
+",,,
+oral_communications,TRUE,III Conferência Brasileira de Jornalismo de Dados e Métodos Digitais (CODA BR),"São Paulo, SP, Brazil",Open Knowledge Brasil,2019,2019,[Estatística básica](https://github.com/rmhirota/coda2019) - Portuguese,,,
+oral_communications,FALSE,III Conferência Brasileira de Jornalismo de Dados e Métodos Digitais (CODA BR),"São Paulo, SP, Brazil",Open Knowledge Brasil,2019,2019,[Uso da API da Câmara via R](https://github.com/rmhirota/coda2019),,,
+oral_communications,TRUE,14o Congresso Internacional de Jornalismo Investigativo,"São Paulo, SP, Brazil",Associação Brasileira de Jornalismo Investigativo,2019,2019,[Precisamos falar sobre estatística: o que jornalistas devem saber](https://rmhirota.github.io/abraji2019/estat-jor.html),,,
+oral_communications,FALSE,II Conferência Brasileira de Jornalismo de Dados e Métodos Digitais (CODA BR),"São Paulo, SP, Brazil",Open Knowledge Brasil / Escola de Dados,2018,2018,Saia do básico pra nunca mais errar em estatística,,,
+meetup_presentations,FALSE,Meetup Cerveja com Dados,"São Paulo, SP, Brazil",Escola de Dados,2018,2018,[Atlas da Notícia](https://docs.google.com/presentation/d/1wAzRnNyMBEAvvff8En2K3XGHhyBGZHNRuN6AUwkzBiQ/edit#slide=id.p),,,
+meetup_presentations,TRUE,"Estatística Básica e Noções de Inferência
+","São Paulo, SP, Brazil",[Meetup R-Ladies São Paulo](https://www.meetup.com/pt-BR/R-Ladies-Sao-Paulo/),2019,2019,,,,
+workshops_taught,FALSE,Jornalismo de Dados - 2a edição,"São Paulo, SP, Brazil",[Trampos Academy](https://trampos.academy/curso-jornalismo-de-dados),2018,2018,,,,
+workshops_taught,TRUE,"Jornalismo de Dados - 3a edição","São Paulo, SP, Brazil",[Trampos Academy](https://trampos.academy/curso-jornalismo-de-dados),2018,2018,,,,
+events_attended,FALSE,13o Congresso Internacional de Jornalismo Investigativo,"São Paulo, SP, Brazil",Associação Brasileira de Jornalismo Investigativo,2018,2018,,,,
+events_attended,FALSE,Prevendo o resultado das eleições brasileiras de 2018,"São Paulo, SP, Brazil",[aMostra](https://www.ime.usp.br/~amostra/),2018,2018,[Certificado](https://rmhirota.github.io/resume/certificates/2018/amostra_eleicoes.pdf),,,
+short_courses,TRUE,`R` - R Markdown,"São Paulo, SP, Brazil",[aMostra](https://www.ime.usp.br/~amostra/),2018,2018,[Certificado](https://rmhirota.github.io/resume/certificates/2018/amostra_rmarkdown.pdf),2h30,,
+short_courses,TRUE,`R` - Análise Exploratória de Dados,"São Paulo, SP, Brazil",[aMostra](https://www.ime.usp.br/~amostra/),2018,2018,[Certificado](https://rmhirota.github.io/resume/certificates/2018/amostra_eda.pdf),2h30,,
+short_courses,TRUE,`R` - Web Scraping com R,"São Paulo, SP, Brazil",[Curso-R](https://www.curso-r.com/),2019,2019,[Certificado](https://rmhirota.github.io/resume/certificates/2019/cursor_webscraping.pdf),8h,,
+short_courses,FALSE,`R` - Introdução à Programação com R,"São Paulo, SP, Brazil",[Curso-R](https://www.curso-r.com/),2018,2018,16h,,,
+short_courses,FALSE,Introdução ao Cálculo de Probabilidades,"São Paulo, SP, Brazil",Instituto de Matemática e Estatística - Universidade de São Paulo (IME/USP),2019,2019,60h,,,
+short_courses,TRUE,Espaços Métricos,"São Paulo, SP, Brazil",Instituto de Matemática e Estatística - Universidade de São Paulo (IME/USP),2019,2019,60h,,,
