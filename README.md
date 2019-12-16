@@ -1,14 +1,14 @@
-# Beatriz Milz's CV/resume
+# Renata Hirota's CV/resume
 
-This CV/resume was made with R, RStudio, and the R package [**pagedown**](https://github.com/rstudio/pagedown).
+This CV/resume was based on [Beatriz Milz](https://github.com/beatrizmilz/resume). It was made with R, RStudio, and the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
-HTML - Complete version: https://beatrizmilz.github.io/resume/
+HTML - Complete version: [EN](https://rmhirota.github.io/resume/) | [PT](https://rmhirota.github.io/resume/resume_pt/)
 
-PDF - Complete version: https://beatrizmilz.github.io/resume/index.pdf
+PDF - Complete version: [EN](https://rmhirota.github.io/resume/index.pdf) | [PT](https://rmhirota.github.io/resume/index_pt.pdf)
 
-HTML - 2 pages: https://beatrizmilz.github.io/resume/resume.html
+HTML - 2 pages: [EN](https://rmhirota.github.io/resume/resume.html) | [PT](https://rmhirota.github.io/resume/resume_pt.html)
 
-PDF - 2 pages: https://beatrizmilz.github.io/resume/resume.pdf
+PDF - 2 pages: [EN](https://rmhirota.github.io/resume/resume.pdf) | [PT](https://rmhirota.github.io/resume/resume_pt.pdf)
 
 Thanks to [@Nick Strayer](http://nickstrayer.me/) - code to build the CV using a csv table: [code in this repository](https://github.com/nstrayer/cv).
 

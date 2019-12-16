@@ -1,0 +1,185 @@
+---
+title: "Renata Hirota's resume - short version"
+author: Renata Hirota
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+    css: ["css/resume.css"]
+    
+# to render into pdf: pagedown::chrome_print("docs/index.html")
+# If needed:
+# https://pagedown.rbind.io/
+# https://www.pagedmedia.org/about-paged-media/pagedjs-cheatsheet/
+# https://slides.yihui.name/2019-rstudio-conf-pagedown.html#1
+# xaringan::inf_mr("docs/index.Rmd")
+---
+<!--- start of code for font awesome--->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+<!--- end of code for font awesome--->
+
+```{r, include=FALSE}
+# code from https://github.com/nstrayer/cv
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+library(tidyverse)
+library(glue)
+
+# Set this to true to have links turned into footnotes at the end of the document
+PDF_EXPORT <- FALSE
+
+# Holds all the links that were inserted for placement at the end
+links <- c()
+
+source('parsing_functions.R')
+
+
+# First let's get the data, filtering to only the items tagged as
+# Resume items
+position_data <- read_csv('positions_pt.csv') %>% 
+  filter(in_resume) #%>% 
+  # mutate(
+  #   # Build some custom sections by collapsing others
+  #   section = case_when(
+  #     section %in% c('research_positions', 'industry_positions') ~ 'positions', 
+  #     section %in% c('data_science_writings', 'by_me_press') ~ 'writings',
+  #     TRUE ~ section
+  #   )
+  # ) 
+
+```
+
+
+Aside
+================================================================================
+<i class="fas fa-download"></i> Faça download desde CV em PDF: [resumido](https://rmhirota.github.io/resume/resume_pt.pdf) ou
+[completo](https://rmhirota.github.io/resume/index_pt.pdf).
+
+## RESUMO
+
+<i class="fas fa-newspaper"></i> Jornalista de dados em Volt Data Lab.
+
+<i class="fab fa-r-project"></i> Graduanda em estatística e entusiasta de R. 
+
+```{r echo=FALSE, out.width="10%"}
+knitr::include_graphics("img/R-LadiesGlobal-min.png")
+```
+Coorganizadora R-Ladies São Paulo. 
+
+```{r echo=FALSE, out.width="10%"}
+knitr::include_graphics("img/escoladedados.png")
+```
+Membro da Escola de Dados.
+
+## QUALIFICAÇÕES
+
+<i class="fab fa-r-project"></i> `R`
+
+<i class="far fa-chart-bar"></i> `tidyverse`
+
+<i class="fas fa-code-branch"></i> `Git`
+
+<i class="fab fa-github"></i> `GitHub`
+
+<i class="fab fa-markdown"></i> `Markdown`
+
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Este documento foi feito com o pacote de R [**pagedown**](https://github.com/rstudio/pagedown) e template por [Beatriz Milz](https://github.com/beatrizmilz/resume).
+
+Este currículo **não** é completo. A versão completa pode ser encontrada [aqui](https://rmhirota.github.io/resume/index_pt.pdf). 
+
+Atualizado em `r Sys.Date()`. Versão mais recente [disponível aqui](https://rmhirota.github.io/resume/resume_pt.pdf). 
+
+Main
+================================================================================
+
+Renata Hirota {#title}
+--------------------------------------------------------------------------------
+
+FORMAÇÃO ACADÊMICA {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'education')
+```
+
+
+PROJETOS {data-icon=share-alt}
+--------------------------------------------------------------------------------
+```{r}
+print_section(position_data, 'community_projects')
+```
+
+
+
+EXPERIÊNCIA PROFISSIONAL {data-icon=briefcase}
+--------------------------------------------------------------------------------
+```{r}
+print_section(position_data, 'working_experience')
+```
+
+
+ATIVIDADES ACADÊMICAS {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+```{r}
+print_section(position_data, 'teaching_experience')
+```
+
+::: aside
+
+
+### IDIOMAS
+
+**Portuguese:** Nativo
+
+**English:** Proficiente
+
+**Spanish:** Proficiente
+
+**Japanese** Intermediário
+
+
+<br><br>
+
+
+### CONTATO
+
+- <i class="fa fa-envelope"></i> re.hirota@gmail.com / renata@voltdata.info
+
+- <i class="fa fa-twitter"></i> [Twitter: `@`renata_mh](https://twitter.com/renata_mh)
+
+- <i class="fa fa-github"></i> [GitHub: `@`rmhirota](https://github.com/rmhirota)
+
+- <i class="fa fa-linkedin"></i> [LinkedIn](https://br.linkedin.com/in/renatahirota) 
+
+
+- Para mais informações, entre em contato por e-mail.
+
+
+:::
+
+Palestras ministradas {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+```{r}
+print_section(position_data, 'oral_communications')
+```
+
+
+Cursos {data-icon=book} 
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'short_courses')
+```
+
+::: aside
+<i class="fas fa-download"></i> [Baixe a versão completa do CV](https://rmhirota.github.io/resume/index_pt.pdf)
+:::

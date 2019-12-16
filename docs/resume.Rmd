@@ -40,7 +40,7 @@ source('parsing_functions.R')
 
 # First let's get the data, filtering to only the items tagged as
 # Resume items
-position_data <- read_csv('positions_pt.csv') %>% 
+position_data <- read_csv('positions.csv') %>% 
   filter(in_resume) #%>% 
   # mutate(
   #   # Build some custom sections by collapsing others
@@ -56,26 +56,26 @@ position_data <- read_csv('positions_pt.csv') %>%
 
 Aside
 ================================================================================
-<i class="fas fa-download"></i> Faça download desde CV em PDF: [resumido](https://rmhirota.github.io/resume/resume.pdf) ou
-[completo](https://rmhirota.github.io/resume/index.pdf).
+<i class="fas fa-download"></i> Download this resume in PDF: [short](https://rmhirota.github.io/resume/resume.pdf) or
+[complete](https://rmhirota.github.io/resume/index.pdf) version.
 
-## RESUMO
+## SUMMARY
 
-<i class="fas fa-newspaper"></i> Jornalista de dados em Volt Data Lab.
+<i class="fas fa-newspaper"></i> Data journalist at Volt Data Lab.
 
-<i class="fab fa-r-project"></i> Graduanda em estatística e entusiasta de R. 
+<i class="fab fa-r-project"></i> Statistics student and R enthusiast. 
 
 ```{r echo=FALSE, out.width="10%"}
 knitr::include_graphics("img/R-LadiesGlobal-min.png")
 ```
-Coorganizadora R-Ladies São Paulo. 
+R-Ladies Sao Paulo co-organizer. 
 
 ```{r echo=FALSE, out.width="10%"}
 knitr::include_graphics("img/escoladedados.png")
 ```
-Membro da Escola de Dados.
+School of Data member.
 
-## QUALIFICAÇÕES
+## SKILLS
 
 <i class="fab fa-r-project"></i> `R`
 
@@ -92,11 +92,13 @@ Membro da Escola de Dados.
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-Este documento foi feito com o pacote de R [**pagedown**](https://github.com/rstudio/pagedown) e template por [Beatriz Milz](https://github.com/beatrizmilz/resume).
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and code template from [Beatriz Milz](https://github.com/beatrizmilz/resume).
 
-Este currículo **não** é completo. A versão completa pode ser encontrada [aqui](https://rmhirota.github.io/resume/index.pdf). 
+This resume is **not** complete. The complete version can be found [here](https://rmhirota.github.io/resume/index.pdf).
 
-Atualizado em `r Sys.Date()`. Versão mais recente [disponível aqui](https://rmhirota.github.io/resume/index.pdf). 
+Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://rmhirota.github.io/resume/index.pdf). 
+
+
 
 Main
 ================================================================================
@@ -104,7 +106,7 @@ Main
 Renata Hirota {#title}
 --------------------------------------------------------------------------------
 
-FORMAÇÃO ACADÊMICA {data-icon=graduation-cap data-concise=true}
+Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -112,7 +114,7 @@ print_section(position_data, 'education')
 ```
 
 
-PROJETOS {data-icon=share-alt}
+Projects {data-icon=share-alt}
 --------------------------------------------------------------------------------
 ```{r}
 print_section(position_data, 'community_projects')
@@ -120,14 +122,14 @@ print_section(position_data, 'community_projects')
 
 
 
-EXPERIÊNCIA PROFISSIONAL {data-icon=briefcase}
+Working Experience {data-icon=briefcase}
 --------------------------------------------------------------------------------
 ```{r}
 print_section(position_data, 'working_experience')
 ```
 
 
-ATIVIDADES ACADÊMICAS {data-icon=chalkboard-teacher}
+Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 ```{r}
 print_section(position_data, 'teaching_experience')
@@ -136,21 +138,21 @@ print_section(position_data, 'teaching_experience')
 ::: aside
 
 
-### IDIOMAS
+### LANGUAGES
 
-**Portuguese:** Nativo
+**Portuguese:** Native
 
-**English:** Proficiente
+**English:** Proficient
 
-**Spanish:** Proficiente
+**Spanish:** Proficient
 
-**Japanese** Intermediário
+**Japanese** Intermediate
 
 
 <br><br>
 
 
-### CONTATO
+### CONTACT INFO
 
 - <i class="fa fa-envelope"></i> re.hirota@gmail.com / renata@voltdata.info
 
@@ -166,14 +168,14 @@ print_section(position_data, 'teaching_experience')
 
 :::
 
-Palestras ministradas {data-icon=chalkboard-teacher}
+Oral Communications {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 ```{r}
 print_section(position_data, 'oral_communications')
 ```
 
 
-Cursos {data-icon=book} 
+Short Courses {data-icon=book} 
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -181,5 +183,5 @@ print_section(position_data, 'short_courses')
 ```
 
 ::: aside
-<i class="fas fa-download"></i> [Baixe a versão completa do CV](https://rmhirota.github.io/resume/index.pdf)
+<i class="fas fa-download"></i> [Download the complete CV](https://rmhirota.github.io/resume/index.pdf)
 :::
