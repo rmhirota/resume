@@ -61,14 +61,14 @@ Aside
 
 ## SUMMARY
 
-<i class="fas fa-newspaper"></i> Data journalist at Volt Data Lab.
+<i class="fas fa-newspaper"></i> Data journalist.
 
 <i class="fab fa-r-project"></i> Statistics student and R enthusiast. 
 
 ```{r echo=FALSE, out.width="10%"}
 knitr::include_graphics("img/R-LadiesGlobal-min.png")
 ```
-R-Ladies Sao Paulo co-organizer. 
+R-Ladies Sao Paulo. 
 
 ```{r echo=FALSE, out.width="10%"}
 knitr::include_graphics("img/escoladedados.png")
@@ -92,7 +92,7 @@ School of Data member.
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and code template from [Beatriz Milz](https://github.com/beatrizmilz/resume).
+This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
 This resume is **not** complete. The complete version can be found [here](https://rmhirota.github.io/resume/index.pdf).
 
@@ -163,7 +163,7 @@ print_section(position_data, 'teaching_experience')
 - <i class="fa fa-linkedin"></i> [LinkedIn](https://br.linkedin.com/in/renatahirota) 
 
 
-- Para mais informações, entre em contato por e-mail.
+- For more information, please contact me via email.
 
 
 :::
