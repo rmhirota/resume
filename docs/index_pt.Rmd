@@ -51,14 +51,14 @@ Aside
 
 ## RESUMO
 
-<i class="fas fa-newspaper"></i> Jornalista de dados em Volt Data Lab.
+<i class="fas fa-newspaper"></i> Jornalista de dados.
 
 <i class="fab fa-r-project"></i> Estudante de Estatística e entusiasta de R. 
 
 ```{r echo=FALSE, out.width="10%"}
 knitr::include_graphics("img/R-LadiesGlobal-min.png")
 ```
-Coorganizadora R-Ladies São Paulo.
+R-Ladies São Paulo.
 
 ```{r echo=FALSE, out.width="10%"}
 knitr::include_graphics("img/escoladedados.png")
@@ -83,7 +83,7 @@ Membro da Escola de Dados.
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-Este currículo foi feito com o pacote [**pagedown**](https://github.com/rstudio/pagedown) e baseado no código de [Beatriz Milz](https://github.com/beatrizmilz/resume).
+Este currículo foi feito com o pacote [**pagedown**](https://github.com/rstudio/pagedown).
 
 Atualizado em `r Sys.Date()`. A versão mais recente deste CV está [disponível aqui](https://rmhirota.github.io/resume/index_pt.pdf). 
 
@@ -121,14 +121,13 @@ print_section(position_data, 'working_experience')
 
 ### IDIOMAS
 
-**Portuguese:** Native
+**Português:** Nativo
 
-**English:** Proficient
+**Inglês:** Proficiente
 
-**Spanish:** Proficient
+**Espanhol** Proficiente
 
-**Japanese** Intermediate
-
+**Japonês** Intermediário
 
 <br><br>
 
